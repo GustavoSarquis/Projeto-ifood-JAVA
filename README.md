@@ -2,9 +2,8 @@
 # Sistema de Gerenciamento de Restaurante (Java Swing):
 Este é um projeto desenvolvido em Java utilizando a biblioteca gráfica Swing. O sistema simula uma plataforma de delivery, conectando Donos de Restaurantes e Clientes, com foco em boas práticas de Orientação a Objetos e persistência de dados local. O objetivo deste software é permitir que donos de restaurantes cadastrem seus estabelecimentos e cardápios (comidas e bebidas), enquanto clientes podem navegar, visualizar detalhes técnicos dos produtos e montar carrinhos de compras. O sistema mantém os dados salvos automaticamente entre as sessões.
 # Arquitetura e Organização (Pacotes):
-O código foi reestruturado em pacotes, com o objetivo de deixar organizado e de facíl entendimento ao usuário que for ler o código, dividindo as funções em pacotes específicos, os pacotes com as classes foram dividido da seguinte forma:
-src/
-│
+O código foi reestruturado em pacotes, com o objetivo de deixar organizado e de facíl entendimento ao usuário que for ler o código, dividindo as funções em pacotes específicos, os pacotes com as classes foram dividido da seguinte forma: 
+
 ├── 📂 main
 │   └── Main.java             
 │
@@ -31,6 +30,7 @@ src/
     ├── TelaCadastroRestaurante.java
     ├── TelaCardapioCliente.java
     ├── TelaEscolherRestaurante.java
+
 
 # Funcionalidades do código:
 # - Segurança do site

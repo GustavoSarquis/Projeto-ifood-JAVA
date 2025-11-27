@@ -36,16 +36,16 @@ src/
 # - Segurança do site
 - Login e Cadastro: Sistema unificado com abas para entrar ou criar conta.
 - Validações Robustas:
-. Impede e-mails duplicados no sistema.
-. Exige e-mails válidos (@gmail.com).
-. Exige senha mínima de 6 caracteres.
+- Impede e-mails duplicados no sistema.
+- Exige e-mails válidos (@gmail.com).
+- Exige senha mínima de 6 caracteres.
 - Recuperação de Sessão: Ao abrir o programa, o usuário pode escolher carregar os dados anteriores ou iniciar do zero.
 # - Parte do Dono
 - Gestão de Restaurantes: Cadastro de múltiplos restaurantes vinculados ao dono.
 - Gerenciamento de Cardápio (CRUD):
-. Adicionar, Editar e Remover produtos.
-. Polimorfismo Visual: O formulário de cadastro muda dinamicamente. Se selecionar "Comida", pede Tipo de Cozinha e Restrição Alimentar. Se "Bebida", pede ML e Teor Alcoólico.
-. Verificação: O sistema impede acesso a telas de produtos se não houver restaurante cadastrado.
+- Adicionar, Editar e Remover produtos.
+- Polimorfismo Visual: O formulário de cadastro muda dinamicamente. Se selecionar "Comida", pede Tipo de Cozinha e Restrição Alimentar. Se "Bebida", pede ML e Teor Alcoólico.
+- Verificação: O sistema impede acesso a telas de produtos se não houver restaurante cadastrado.
 # - Parte do Cliente
 - Navegação Inteligente: Lista de restaurantes com exibição dinâmica do endereço ao selecionar o nome.
 - Carrinho de Compras: Adição de múltiplos itens.
@@ -57,11 +57,11 @@ src/
 # Conceitos utilizados:
 - Java Swing (GUI): Uso de JFrame, JPanel, JList, JComboBox dinâmico, JTabbedPane e LayoutManagers (BorderLayout, GridLayout, BoxLayout).
 - Programação Orientada a Objetos (POO):
-. Herança: Cliente extends Usuario, Comida extends Produto.
-. Polimorfismo: Método getDetalhesCompletos() e renderização de listas.
-. Encapsulamento: Uso de modificadores de acesso e Getters/Setters.
-. Tratamento de Exceções: Blocos try-catch para IO e validação de números.
-. Streams API: Utilizado para manipulação eficiente de nomes na lista de carrinho.
+- Herança: Cliente extends Usuario, Comida extends Produto.
+- Polimorfismo: Método getDetalhesCompletos() e renderização de listas.
+- Encapsulamento: Uso de modificadores de acesso e Getters/Setters.
+- Tratamento de Exceções: Blocos try-catch para IO e validação de números.
+- Streams API: Utilizado para manipulação eficiente de nomes na lista de carrinho.
 # Como executar o código:
 - Utilize algum app como o VScode, Eclipse, entre outros.
 - Certifique-se de ter o JDK instalado.

@@ -3,7 +3,7 @@
 - Gustavo Sarquis
 - Pedro Henrique 
 # Sistema de Gerenciamento de Restaurante (Java Swing):
-Este é um projeto desenvolvido em Java utilizando a biblioteca gráfica Swing. O sistema simula uma plataforma de delivery, conectando Donos de Restaurantes e Clientes, com foco em boas práticas de Orientação a Objetos e persistência de dados local. O objetivo deste software é permitir que donos de restaurantes cadastrem seus estabelecimentos e cardápios (comidas e bebidas), enquanto clientes podem navegar, visualizar detalhes técnicos dos produtos e montar carrinhos de compras. O sistema mantém os dados salvos automaticamente entre as sessões.
+Este é um projeto desenvolvido em Java utilizando a biblioteca gráfica Swing. O sistema simula uma plataforma de delivery, conectando Donos de Restaurantes e Clientes, com foco em boas práticas de Orientação a Objetos e persistência de dados local. O objetivo deste software é permitir que donos de restaurantes cadastrem seus estabelecimentos e cardápios (comidas e bebidas), além de pode editar os produtos do cardápio e excluí-los, enquanto clientes podem navegar, visualizar detalhes técnicos dos produtos e montar carrinhos de compras. O sistema mantém os dados salvos automaticamente entre as sessões, ao usuário fechar o programa, tem a opção de utilizar os dados salvos ou criar novos dados, excluindos os antigos dados salvos.
 # Arquitetura e Organização (Pacotes):
 O código foi reestruturado em pacotes, com o objetivo de deixar organizado e de facíl entendimento ao usuário que for ler o código, dividindo as funções em pacotes específicos, os pacotes com as classes foram dividido da seguinte forma: 
 
@@ -11,7 +11,8 @@ O código foi reestruturado em pacotes, com o objetivo de deixar organizado e de
 │   └── Main.java             
 │
 ├── 📂 sistema
-│   └── Sistema.java         
+│ └── Sistema.java         
+│
 ├── 📂 usuarios               
 │   ├── Usuario.java          
 │   ├── Cliente.java          
@@ -38,16 +39,14 @@ O código foi reestruturado em pacotes, com o objetivo de deixar organizado e de
 # Funcionalidades do código:
 # - Segurança do site
 - Login e Cadastro: Sistema unificado com abas para entrar ou criar conta.
-- Validações Robustas:
 - Impede e-mails duplicados no sistema.
-- Exige e-mails válidos (@gmail.com).
+- Exige e-mails válidos (para padronizar os emails devem termninar com @gmail.com).
 - Exige senha mínima de 6 caracteres.
 - Recuperação de Sessão: Ao abrir o programa, o usuário pode escolher carregar os dados anteriores ou iniciar do zero.
 # - Parte do Dono
 - Gestão de Restaurantes: Cadastro de múltiplos restaurantes vinculados ao dono.
-- Gerenciamento de Cardápio (CRUD):
-- Adicionar, Editar e Remover produtos.
-- Polimorfismo Visual: O formulário de cadastro muda dinamicamente. Se selecionar "Comida", pede Tipo de Cozinha e Restrição Alimentar. Se "Bebida", pede ML e Teor Alcoólico.
+- Gerenciamento de Cardápio (CRUD): Adicionar, Editar e Remover produtos.
+- Polimorfismo Visual: O formulário de cadastro muda dinamicamente. Se selecionar "Comida", pede Tipo de Cozinha e Restrição Alimentar(se é vegano, vegetariano ou nenhum dos dois). Se "Bebida", pede ML e se é Alcoólico ou não.
 - Verificação: O sistema impede acesso a telas de produtos se não houver restaurante cadastrado.
 # - Parte do Cliente
 - Navegação Inteligente: Lista de restaurantes com exibição dinâmica do endereço ao selecionar o nome.

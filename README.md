@@ -1,4 +1,7 @@
 # Projeto-ifood-JAVA
+# Integrantes:
+- Gustavo Sarquis
+- Pedro Henrique 
 # Sistema de Gerenciamento de Restaurante (Java Swing):
 Este é um projeto desenvolvido em Java utilizando a biblioteca gráfica Swing. O sistema simula uma plataforma de delivery, conectando Donos de Restaurantes e Clientes, com foco em boas práticas de Orientação a Objetos e persistência de dados local. O objetivo deste software é permitir que donos de restaurantes cadastrem seus estabelecimentos e cardápios (comidas e bebidas), enquanto clientes podem navegar, visualizar detalhes técnicos dos produtos e montar carrinhos de compras. O sistema mantém os dados salvos automaticamente entre as sessões.
 # Arquitetura e Organização (Pacotes):

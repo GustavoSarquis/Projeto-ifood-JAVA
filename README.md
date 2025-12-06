@@ -34,7 +34,7 @@ O código foi reestruturado em pacotes, com o objetivo de deixar organizado e de
     ├── TelaCadastroRestaurante.java
     ├── TelaCardapioCliente.java
     ├── TelaEscolherRestaurante.java
-
+    ├── TelaCarrinho.java
 
 # Funcionalidades do código:
 # - Segurança do site
@@ -50,7 +50,10 @@ O código foi reestruturado em pacotes, com o objetivo de deixar organizado e de
 - Verificação: O sistema impede acesso a telas de produtos se não houver restaurante cadastrado.
 # - Parte do Cliente
 - Navegação Inteligente: Lista de restaurantes com exibição dinâmica do endereço ao selecionar o nome.
-- Carrinho de Compras: Adição de múltiplos itens.
+- Carrinho de Compras: 
+Permite remover itens indesejados.
+Permite aumentar a quantidade de itens já adicionados.
+Simulação de Pagamento: Exibe o total e o tempo estimado, finalizando o pedido e limpando o carrinho.
 - Cálculos Automáticos: O sistema calcula o valor total e o tempo estimado de entrega (baseado no prato mais demorado).
 - Ficha Técnica: Visualização detalhada de produtos (ex: saber se um prato é Vegano ou se uma bebida é Alcoólica).
 # Salvamento de Dados(Serialização):

@@ -62,7 +62,8 @@ Simulação de Pagamento: Exibe o total e o tempo estimado, finalizando o pedido
 # Conceitos utilizados:
 - Java Swing (GUI): Uso de JFrame, JPanel, JList, JComboBox dinâmico, JTabbedPane e LayoutManagers (BorderLayout, GridLayout, BoxLayout).
 - Programação Orientada a Objetos (POO):
-- Herança: Cliente extends Usuario, Comida extends Produto.
+- Interfaces: A classe Usuario é uma Interface, estabelecendo um contrato obrigatório que as classes Cliente e DonoRestaurante devem implementar.
+- Herança: Bebida extends Produto, Comida extends Produto.
 - Polimorfismo: Método getDetalhesCompletos() e renderização de listas.
 - Encapsulamento: Uso de modificadores de acesso e Getters/Setters.
 - Tratamento de Exceções: Blocos try-catch para IO e validação de números.

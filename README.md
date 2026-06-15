@@ -74,4 +74,4 @@ Simulação de Pagamento: Exibe o total e o tempo estimado, finalizando o pedido
 - Abra o terminal na pasta src do projeto.
 - Execute a classe Main
 
-realizando testes    
+
